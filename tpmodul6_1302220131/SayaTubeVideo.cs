@@ -21,7 +21,7 @@ namespace tpmodul6_1302220131.SayaTubeVideo
             Random r = new Random();
             this.id = r.Next(10000, 99999);
             this.title = title;
-            this.PlayCount = PlayCount;
+            PlayCount = PlayCount;
         }
         public void incrementPlayCount(int x)
         {
